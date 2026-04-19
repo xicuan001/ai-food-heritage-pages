@@ -1,0 +1,1 @@
+function e(e){return e?new Intl.DateTimeFormat(`zh-CN`,{year:`numeric`,month:`2-digit`,day:`2-digit`,hour:`2-digit`,minute:`2-digit`}).format(new Date(e)):`--`}function t(e,t=80){return e?e.length>t?`${e.slice(0,t)}...`:e:``}function n(e){return Number(e||0).toFixed(1)}export{n,t as r,e as t};
